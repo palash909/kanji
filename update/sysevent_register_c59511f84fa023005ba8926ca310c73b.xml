@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_218521_kanji.candidate_confirming</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>candidate_confirming</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 05:18:00</sys_created_on>
+        <sys_id>c59511f84fa023005ba8926ca310c73b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_218521_kanji.candidate_confirming</sys_name>
+        <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
+        <sys_update_name>sysevent_register_c59511f84fa023005ba8926ca310c73b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 05:18:00</sys_updated_on>
+        <table>x_218521_kanji_invitee</table>
+    </sysevent_register>
+</record_update>

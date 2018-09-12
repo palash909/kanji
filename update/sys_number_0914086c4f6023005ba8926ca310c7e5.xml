@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_218521_kanji_event">x_218521_kanji_event</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>EVE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 04:42:20</sys_created_on>
+        <sys_id>0914086c4f6023005ba8926ca310c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EVE</sys_name>
+        <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
+        <sys_update_name>sys_number_0914086c4f6023005ba8926ca310c7e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 04:42:20</sys_updated_on>
+    </sys_number>
+</record_update>

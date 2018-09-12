@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="budget_per_person" label="Budget per person" language="en" table="x_218521_kanji_event">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>budget_per_person</element>
+            <help/>
+            <hint/>
+            <label>Budget per person</label>
+            <language>en</language>
+            <name>x_218521_kanji_event</name>
+            <plural>Budget per persons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 05:09:07</sys_created_on>
+            <sys_id>ad3ac0a04fa023005ba8926ca310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Budget per person</sys_name>
+            <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
+            <sys_update_name>sys_documentation_x_218521_kanji_event_budget_per_person_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 05:09:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

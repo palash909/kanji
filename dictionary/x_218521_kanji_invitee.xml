@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Invitee" max_length="40" name="x_218521_kanji_invitee" type="collection">
+        <element label="Calculated price" max_length="20" name="calculated_price" type="decimal"/>
+        <element label="Collected" max_length="20" name="collected" type="decimal"/>
+        <element label="Event" max_length="32" name="event" reference="x_218521_kanji_event" type="reference"/>
+        <element label="Invitee" max_length="32" name="invitee" reference="sys_user" type="reference"/>
+        <element label="Price" max_length="20" name="price" type="decimal"/>
+        <element label="Will attend" max_length="20" name="will_attend" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="invitee"/>
+        </index>
+    </element>
+</database>
