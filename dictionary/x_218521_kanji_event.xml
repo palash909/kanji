@@ -5,10 +5,11 @@
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Description" max_length="2000" name="description" type="string"/>
         <element label="End time" max_length="40" name="end_time" type="glide_time"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Location information" max_length="240" name="location_information" type="string"/>
         <element label="Location name" max_length="120" name="location_name" type="string"/>
-        <element label="Members" max_length="32" name="members" reference="x_218521_kanji_invitee" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Event ID" max_length="10" name="number" type="string"/>
+        <element label="Members" max_length="32" name="members" reference="x_218521_kanji_invitee" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Event ID" max_length="10" name="number" type="string"/>
         <element label="Organized by" max_length="20" name="organized_by" type="string"/>
         <element label="Short description" max_length="100" name="short_description" type="string"/>
         <element label="Start time" max_length="40" name="start_time" type="glide_time"/>
@@ -21,6 +22,9 @@
         </element>
         <index name="index">
             <element name="members"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
         </index>
     </element>
 </database>

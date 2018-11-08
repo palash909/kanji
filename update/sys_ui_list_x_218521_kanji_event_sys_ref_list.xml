@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_218521_kanji_event" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_218521_kanji_event" element="NULL" name="x_218521_kanji_event" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">eac7e5384fe023005ba8926ca310c794</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 06:36:26</sys_created_on>
+            <sys_id>a2c7e5384fe023005ba8926ca310c795</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 06:36:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_218521_kanji_event</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 06:36:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eac7e5384fe023005ba8926ca310c794</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_218521_kanji_event</sys_name>
+            <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
+            <sys_update_name>sys_ui_list_x_218521_kanji_event_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 06:36:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">734a11515d121300651727c3e282e80d</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

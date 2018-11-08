@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>kanji.candidate_attend_link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+										   /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+										   /* Optional GlideRecord */ event) {
+
+	// Add your code here
+	var subject = 'RE:' + current.event.number + '- 参加する';   
+	var body = "Your body text here" + email.watermark; 
+	var text='参加する';
+	
+	template.print(generateLink(subject, body, text));   
+
+})(current, template, email, email_action, event);
+
+
+function generateLink(subject, body, text){   
+	// The instance has an email address of instance@service-now.com.
+	var linkStart = '<a href="mailto:dev50983@service-now.com' +'?subject=' + subject + '&body=' + body + '">';     
+	var linkText= text;   
+	var linkEnd ='</a>';   
+
+	return linkStart + linkText + linkEnd;   
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 08:04:33</sys_created_on>
+        <sys_id>c23af1744f2423005ba8926ca310c790</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>kanji.candidate_attend_link</sys_name>
+        <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
+        <sys_update_name>sys_script_email_c23af1744f2423005ba8926ca310c790</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-13 06:52:11</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_218521_kanji_invitee</collection>
+        <email_layout display_value="Unsubscribe and Preferences">1410041f3b0b2200c869c2c703efc41e</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Click here to approve&nbsp;${current.event}</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[test]]></message_text>
+        <name>mailto.attend</name>
+        <sms_alternate/>
+        <subject>Re:${current.event} - approve</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-13 06:48:25</sys_created_on>
+        <sys_id>2ff2f64d4fe023005ba8926ca310c7ce</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>mailto.attend</sys_name>
+        <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
+        <sys_update_name>sysevent_email_template_2ff2f64d4fe023005ba8926ca310c7ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-13 07:13:56</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

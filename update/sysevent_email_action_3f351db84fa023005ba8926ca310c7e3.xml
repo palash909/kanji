@@ -36,7 +36,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>各位</p>
-<p>&nbsp;お疲れ様です、廣瀬です。<br /><br /></p>
+<p>&nbsp;お疲れ様です、サルカルです。<br /><br /></p>
 <p>&nbsp;歓迎会を行うお店が決定いたしましたので、</p>
 <p>詳細をお送りいたします。</p>
 <p>&nbsp;</p>
@@ -49,31 +49,23 @@
 <p>8/21(火)の13時までにご連絡いただければ費用の負担は一切ございません。</p>
 <p>13時以降にご連絡される場合は、会費4,000円をお支払いいただくことに</p>
 <p>なりますので、予めご了承ください。</p>
-<p>&nbsp;</p>
+<p>&nbsp;${mailto:mailto.attend}</p>
 <p>【回答期限】８月15日(水)中</p>
-<p>&nbsp;<br />以上です、よろしくお願いいたします。</p>
 <p>&nbsp;</p>
-<p>----------------------------------------------</p>
-<p>株式会社システムサポート</p>
-<p>名古屋支社 システムサービス事業部</p>
-<p>廣瀬　加奈（Hirose Kana）</p>
-<p>〒450-6314　名古屋市中村区名駅1-1-1</p>
-<p>ＪＰタワー名古屋14F</p>
-<p>Tel：052-571-3266 / Fax：052-571-3633</p>
-<p>E-mail：<a href="mailto:k-hirose@sts-inc.co.jp">k-hirose@sts-inc.co.jp</a></p>
-<p>URL　：<a href="http://www.sts-inc.co.jp">http://www.sts-inc.co.jp</a></p>
-<p>----------------------------------------------</p>]]></message_html>
+<p>${mail_script:kanji.candidate_attend_link}</p>
+<p>&nbsp;<br />以上です、よろしくお願いいたします。</p>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Candidate confirmation</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>user.email</recipient_fields>
+        <recipient_fields>invitee</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>イベント連絡</subject>
@@ -84,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f351db84fa023005ba8926ca310c7e3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Candidate confirmation</sys_name>
         <sys_overrides/>
         <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
@@ -92,9 +84,9 @@
         <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
         <sys_update_name>sysevent_email_action_3f351db84fa023005ba8926ca310c7e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-12 05:47:30</sys_updated_on>
+        <sys_updated_on>2018-09-13 07:05:08</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template/>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

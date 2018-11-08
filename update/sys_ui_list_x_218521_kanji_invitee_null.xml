@@ -2,78 +2,63 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_218521_kanji_invitee" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>invitation</element>
-            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7f5a90384f2023005ba8926ca310c72f</list_id>
+            <element>invitee</element>
+            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">748ea97c4fe023005ba8926ca310c761</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-12 00:58:12</sys_created_on>
-            <sys_id>f35a90384f2023005ba8926ca310c731</sys_id>
+            <sys_created_on>2018-09-12 07:05:49</sys_created_on>
+            <sys_id>bc8ea97c4fe023005ba8926ca310c761</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-12 00:58:12</sys_updated_on>
+            <sys_updated_on>2018-09-12 07:05:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>reminder_count</element>
-            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7f5a90384f2023005ba8926ca310c72f</list_id>
+            <element>event</element>
+            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">748ea97c4fe023005ba8926ca310c761</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-12 00:58:12</sys_created_on>
-            <sys_id>fb5a90384f2023005ba8926ca310c731</sys_id>
+            <sys_created_on>2018-09-12 07:05:49</sys_created_on>
+            <sys_id>348ea97c4fe023005ba8926ca310c762</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-12 00:58:12</sys_updated_on>
+            <sys_updated_on>2018-09-12 07:05:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>reply_date</element>
-            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7f5a90384f2023005ba8926ca310c72f</list_id>
+            <element>sys_created_by</element>
+            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">748ea97c4fe023005ba8926ca310c761</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-12 00:58:12</sys_created_on>
-            <sys_id>7f5a90384f2023005ba8926ca310c731</sys_id>
+            <sys_created_on>2018-09-12 07:05:49</sys_created_on>
+            <sys_id>b48ea97c4fe023005ba8926ca310c762</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-12 00:58:12</sys_updated_on>
+            <sys_updated_on>2018-09-12 07:05:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>user</element>
-            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7f5a90384f2023005ba8926ca310c72f</list_id>
+            <element>will_attend</element>
+            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">748ea97c4fe023005ba8926ca310c761</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-12 00:58:12</sys_created_on>
-            <sys_id>ff5a90384f2023005ba8926ca310c731</sys_id>
+            <sys_created_on>2018-09-12 07:05:49</sys_created_on>
+            <sys_id>388ea97c4fe023005ba8926ca310c762</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-12 00:58:12</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>will_attend</element>
-            <list_id display_value="x_218521_kanji_invitee" element="NULL" name="x_218521_kanji_invitee" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7f5a90384f2023005ba8926ca310c72f</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-12 00:58:12</sys_created_on>
-            <sys_id>735a90384f2023005ba8926ca310c732</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-12 00:58:12</sys_updated_on>
+            <sys_updated_on>2018-09-12 07:05:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-12 00:58:12</sys_created_on>
+            <sys_created_on>2018-09-12 07:05:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7f5a90384f2023005ba8926ca310c72f</sys_id>
+            <sys_id>748ea97c4fe023005ba8926ca310c761</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_218521_kanji_invitee</sys_name>
             <sys_package display_value="幹事" source="x_218521_kanji">3be5ef504f2023005ba8926ca310c714</sys_package>
@@ -98,7 +83,7 @@
             <sys_scope display_value="幹事">3be5ef504f2023005ba8926ca310c714</sys_scope>
             <sys_update_name>sys_ui_list_x_218521_kanji_invitee_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-12 00:58:12</sys_updated_on>
+            <sys_updated_on>2018-09-12 07:05:49</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
